@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <title>DoCoGen Clone</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- Navigation Bar  -->
-    <div class="navbar">
+    <nav class="navbar">
       <div class="logo">
         <a href="#">
           <img src="./images/logo.png" alt="" />
@@ -34,7 +40,10 @@
           </a>
         </ul>
       </div>
-    </div>
+      <div class="burger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
 
     <!-- Home Section  -->
     <section  id="home" class="hero-section">
@@ -65,7 +74,7 @@
     <section id="service" class="service-section">
       <h1>What We <span class="emphasis-3">Do?</span></h1>
       <!-- Docogen Digital  -->
-      <div class="service">
+      <div class="service alt">
         <div class="card">
           <h2 class="heading-text">DoCoGen - Digital</h2>
           <div class="description">
@@ -106,7 +115,7 @@
         </div>
       </div>
       <!-- Careers  -->
-      <div class="service">
+      <div class="service alt">
         <div class="card">
           <h2 class="heading-text">DoCoGen - Careers</h2>
           <div class="description">
@@ -153,5 +162,6 @@
             </form>
         </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>
